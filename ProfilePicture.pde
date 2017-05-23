@@ -14,15 +14,12 @@ String txt ="According to all known laws of aviation, there is no way a bee shou
 int txtLength;
 int currentLetter;
 
-void settings() {
-  size((int)(imgWidth * scale),(int)(imgHeight * scale));  
-}
-
 void setup() {
   noLoop();
   img = loadImage("baseball.PNG");
   println(img.width + " x " + img.height);
   txtLength = txt.length();
+  size(1334,750); 
 }
 
 void draw() {
